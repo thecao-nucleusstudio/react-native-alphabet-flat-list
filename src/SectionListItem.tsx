@@ -21,12 +21,12 @@ const SectionListItem: FC<IProps> = function (props) {
     <View style={[styles.sectionListItemContainer, {height: props.height}]}>
       <View
         style={[styles.sectionListItemWrapper, {
-          backgroundColor: props.active ? '#0ea8ff' : 'transparent',
+          backgroundColor: props.active ? '#006BDD' : 'transparent',
         }]}
       >
         <Text
           style={[styles.sectionListItemText, {
-            color: props.active ? 'white' : '#333',
+            color: props.active ? 'white' : '#006BDD',
           }]}
         >
           {props.title}
